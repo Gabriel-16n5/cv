@@ -1,0 +1,111 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #b2d8d8;
+}
+
+header h1 {
+    color: #006666;
+    font-size: 24px;
+}
+
+/* Foto de perfil */
+.foto {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.foto img {
+    border-radius: 50%;
+}
+
+.foto figcaption {
+    font-style: italic;
+    color: #666;
+}
+
+/* Links e navegação */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #006666;
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #e6f2f2;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #004d4d;
+    border-bottom: 2px solid #004d4d;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Resumo */
+.resumo {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Listas ordenadas e não ordenadas */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Definições */
+dl {
+    margin: 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #004d4d;
+}
+
+dd {
+    margin: 0 0 10px 20px;
+}
+
+/* Rodapé */
+#footer {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin: 20px 0;
+}
